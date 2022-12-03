@@ -53,8 +53,8 @@ for x in result:
     #We take the larger, as we want the positive one
     sol = (-b+math.sqrt(d))/(2*a)
     if sol.is_integer():
-        print(str(int(sol)) + " => " + str(N) + ": " + str(x))
+        print(str(x) + " => " + str(N) + ", x is " + str(int(sol)))
     else:
-        print("No solution => " + str(N) + ": " + str(x))
+        print(str(x) + " => " + str(N) + ", no integer solution")
 
 print("Num canidates: " + str(canidates))
