@@ -5,6 +5,10 @@
 #Addendum: This problem is the partition problem, and solutions are described in OEIS A000041
 #                                                                                https://oeis.org/A000041
 
+#Addendum secundum: The problem specifies "sum" which nessecarily requires more than one number. Therefore
+#we must remove a solution, namely the n by itself solution, to get an answer to the problem as specified.
+#This program does not do that by default.
+
 import itertools
 import math
 
