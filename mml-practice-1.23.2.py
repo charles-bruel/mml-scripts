@@ -2,6 +2,9 @@
 #unique. In how many different ways could 6 be phactored, if the order of the terms is irrelevant, i.e., 
 #1 + 2 + 3, 1 + 3 + 2, and 3 + 2 + 1 are not considered different
 
+#Addendum: This problem is the partition problem, and solutions are described in OEIS A000041
+#                                                                                https://oeis.org/A000041
+
 import itertools
 import math
 
